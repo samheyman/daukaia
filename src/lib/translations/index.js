@@ -10,18 +10,38 @@ const config = {
 	loaders: [
 		{
 			locale: 'en',
-			key: 'about',
-			loader: async () => (await import('./en/about.json')).default
+			key: 'navbar',
+			loader: async () => (await import('./en/navbar.json')).default
+		},
+		{
+			locale: 'es',
+			key: 'navbar',
+			loader: async () => (await import('./es/navbar.json')).default
 		},
 		{
 			locale: 'en',
-			key: 'footer',
-			loader: async () => (await import('./en/footer.json')).default
+			key: 'homepage',
+			loader: async () => (await import('./en/homepage.json')).default
+		},
+		{
+			locale: 'es',
+			key: 'homepage',
+			loader: async () => (await import('./es/homepage.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'about',
+			loader: async () => (await import('./en/about.json')).default
 		},
 		{
 			locale: 'es',
 			key: 'about',
 			loader: async () => (await import('./es/about.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'footer',
+			loader: async () => (await import('./en/footer.json')).default
 		},
 		{
 			locale: 'es',

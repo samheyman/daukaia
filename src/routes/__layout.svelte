@@ -2,6 +2,8 @@
 	// import '/static/styles/reset.css';
 	// import '/static/styles/global.css';
 	import { t, locales, locale, loadTranslations } from '$lib/translations';
+
+	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	/** @type {import('@sveltejs/kit').Load} */
@@ -19,25 +21,14 @@
 	};
 </script>
 
-<script>
-</script>
-
-<nav>
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/contact">Contact</a>
-</nav>
-<select bind:value={$locale}>
-	{#each $locales as value}
-		<option {value}>{$t(`lang.${value}`)}</option>
-	{/each}
-</select>
-<slot />
+<div class="content">
+	<Header />
+	<slot />
+</div>
 <Footer />
 
 <style>
-	body {
-		margin: 0;
-		padding: 0;
+	.content {
+		flex: 1 0 auto;
 	}
 </style>

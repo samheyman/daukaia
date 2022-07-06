@@ -13,55 +13,64 @@
 </svelte:head>
 
 <div class="about stretch">
-	<div class="hero">
+	<div class="container header">
 		<h1>{$t('about.title')}</h1>
 		<p>
 			We are an NGO made up of committed and professional young people who pursue the social
 			integration of children in Ocotal through education.
 		</p>
-		<button>Call to action</button>
+		<!-- <button>Call to action</button> -->
 		<div class="kpis">
 			<div>
-				<div>2800</div>
-				<div>label</div>
+				<div class="value">2800</div>
+				<div class="label">label</div>
 			</div>
 			<div>
-				<div>150</div>
-				<div>label</div>
+				<div class="value">150</div>
+				<div class="label">label</div>
 			</div>
 			<div>
-				<div>4</div>
-				<div>label</div>
+				<div class="value">4</div>
+				<div class="label">label</div>
 			</div>
 			<div>
-				<div>234</div>
-				<div>label</div>
+				<div class="value">234</div>
+				<div class="label">label</div>
 			</div>
 		</div>
-	</div>
-	<div class="image">
-		<img alt="Teacher talking to children" src="/images/IMG_8660.jpg" />
 	</div>
 
-	<div class="quote">
-		<div class="content">
-			<div>{$t('about.quote.quote-header')}</div>
-			<div>{$t('about.quote.quote')}</div>
-			<div>{$t('about.quote.quote-paragraph')}</div>
-			<button>Call to action</button>
-		</div>
+	<div class="image">
+		<img alt="Teacher talking to children" src="/images/IMG_7961.jpg" />
+	</div>
+
+	<div class="quote container">
+		<div>{$t('about.quote.quote-header')}</div>
+		<div>{$t('about.quote.quote')}</div>
+		<div>{$t('about.quote.quote-paragraph')}</div>
+		<!-- <button>Call to action</button> -->
 	</div>
 	<div class="the-team" />
 </div>
 
 <style>
-	.content {
-		max-width: 1200px;
+	.header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 80px 0;
 	}
-	.centre {
-		margin: 0 auto;
+
+	.header p {
+		text-align: center;
 	}
+
 	.about {
+		padding: 90px 0;
+		background-color: #cecece;
+		width: 100%;
 		/* grid-template-columns: 1fr 1fr;
 		grid-gap: 1em;
 		min-height: calc(100vh - var(--nav-h));
@@ -80,11 +89,33 @@
 		font-weight: 400;
 		color: var(--second);
 	}
+	.kpis {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding: 80px 0;
+	}
+	.kpis div {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.kpis .value {
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.kpis .label {
+	}
 	.image {
 		height: 65vh;
 		max-height: 65vh;
 		width: 100%;
-		outline: 1px solid red;
+		/* outline: 1px solid red; */
 	}
 	.image img {
 		/* display: block; */
