@@ -21,10 +21,8 @@
 	};
 </script>
 
-<div class="content">
-	<Header />
-	<slot />
-</div>
+<Header />
+<slot />
 <Footer />
 
 <style>

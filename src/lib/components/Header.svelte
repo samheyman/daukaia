@@ -8,7 +8,7 @@
 <header>
 	<nav>
 		<a href="/"><img class="logo" src="/images/daukaia-logo.png" alt="Daukaia logo" /></a>
-		<div class="flex flex-row flex-row-center">
+		<div class="flex flex-row flex-row-center hide-on-mobile">
 			<div class="links ">
 				<a class:active={$page.url.pathname.includes('mission')} href="/mission"
 					>{$t('navbar.mission')}</a
@@ -59,7 +59,7 @@
 		align-items: center;
 	}
 	.call-to-action {
-		background-color: hsl(33, 87%, 56%);
+		background-color: var(--clr-accent);
 		margin-left: 2px;
 		padding: 11px 20px;
 		display: flex;
@@ -72,7 +72,7 @@
 	}
 	.call-to-action:hover {
 		color: #000;
-		background-color: hsla(33, 87%, 56%, 0.7);
+		background-color: var(--clr-accent-light);
 	}
 	.links a {
 		color: #fff;
@@ -86,30 +86,30 @@
 		padding-left: 20px;
 	}
 	.links a:hover {
-		color: hsla(33, 87%, 56%, 1);
+		color: var(--clr-accent-light);
 	}
 	a.active {
-		color: hsla(33, 87%, 56%, 1);
+		color: var(--clr-accent);
 	}
 	select {
 		background-color: transparent;
 		color: #000;
 		font-size: 1rem;
 		font-family: inherit;
-		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+		text-shadow: 0 1px 0 var(--clr-neutral-300);
 		width: 60px;
 		margin-left: 20px;
 	}
 	select option {
 		background: rgba(0, 0, 0, 0.3);
 		color: #000;
-		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+		text-shadow: 0 1px 0 var(--clr-neutral-300);
 	}
 	.logo {
 		height: 80px;
 	}
 	.logo:hover {
-		border: 2px solid hsl(33, 87%, 56%);
+		border: 2px solid var(--clr-accent);
 		border-radius: 50%;
 	}
 </style>

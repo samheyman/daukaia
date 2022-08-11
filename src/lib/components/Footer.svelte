@@ -23,7 +23,7 @@
 <style>
 	footer {
 		flex-shrink: 0;
-		border-top: 3px solid hsl(33, 87%, 56%);
+		border-top: 3px solid var(--clr-accent);
 		background-color: #f6f6f6;
 		position: relative;
 		bottom: 0;

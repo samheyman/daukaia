@@ -9,13 +9,15 @@
 	<meta name="Description" content="Cybernetically enhanced web apps" />
 </svelte:head>
 
-<div class="hero-image">
-	<div class="hero-text container">
-		<h1>{$t('homepage.hero.title')}</h1>
-		<p>{$t('homepage.hero.paragraph')}</p>
-		<a class="button" href="/mission">{$t('homepage.hero.callToAction')}</a>
-	</div>
-</div>
+<main class="no-padding">
+	<section class="hero-image ">
+		<div class="hero-text container">
+			<h1 class="fs-primary-heading">{$t('homepage.hero.title')}</h1>
+			<p>{$t('homepage.hero.paragraph')}</p>
+			<a class="button" href="/mission">{$t('homepage.hero.callToAction')}</a>
+		</div>
+	</section>
+</main>
 
 <style>
 	.hero-image {
@@ -62,7 +64,7 @@
 		/* background-color: hsl(39, 81%, 75%); */
 
 		/* color: white; */
-		border: 1px solid hsl(33, 87%, 56%);
+		border: 1px solid var(--clr-accent-light);
 	}
 	footer {
 		display: flex;

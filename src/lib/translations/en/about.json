@@ -1,10 +1,77 @@
 {
 	"page-title": "About us",
 	"title": "We are Daukaia",
+	"mission-statement": "Daukaia is a non-profit social organization that pursues the <em class=\"focus\">social integration</em> of children in Ocotal, Nicaragua.",
+	"vision": "Our vision",
 	"text": "Visit <a href=\"{{link}}\">our website</a> to read the documentation",
 	"quote": {
 		"quote-header": "WITH YOU WE MAKE COMMUNITY",
 		"quote": "If you want to go fast, go alone. If you want to go far, go together.",
 		"quote-paragraph": "We are small but our dreams are big and in collaboration with others we will achieve more. We seek synergies in all areas to be more efficient."
-	}
+	},
+	"team": {
+		"local-team": "Local team",
+		"team": "International team",
+		"martha": {
+			"title": "Educational director of Daukaia Ocotal",
+			"description": "Martha was the first educator in Daukaia and is the soul of the project. She has a bachelor's degree in theology and has been working in the social and community health field for more than 45 years. He began his medical career and learned that being happy is accepting life's challenges and supporting others."
+		},
+		"esther": {
+			"title": "Educator and responsible for community impact",
+			"description": "Esther was born in Ocotal, she was a student in one of the schools with which we currently collaborate and her commitment to social improvement led her to study sociology with an emphasis on social work and management for development. He understands the context very well and is a reference for families in the neighborhood. It transmits affection and generates a climate of security and trust that inspires to give the best of oneself."
+		},
+		"maye": {
+			"title": "Support teacher in dance and personal development",
+			"description": "Mayeling studied sociology and has experience working with children with special needs. In addition to supporting educators, it promotes personal development activities, including dance workshops."
+		},
+		"eline": {
+			"title": "CEO",
+			"description": "Teacher, pedagogical advisor and coordinator of educational projects for social transformation. Collaborate in training actions for teachers. She accompanies and supports the educators of Daukaia since 2013. Responsible for the design, implementation and evaluation of projects in collaboration with the local team. Coordinates the work carried out in Ocotal, Spain and Norway."
+		},
+		"alberto": {
+			"title": "President",
+			"description": "He has been a teacher and responsible for Educational Innovation in Vocational Training, as well as responsible for the implementation of the Garage Lab project promoted by the Orange Foundation. He was a participant in Start by Educating and traveled to Ocotal in 2016. He is actively involved in programs and projects for the development of young people in both educational and leisure contexts."
+		},
+		"javier": {
+			"title": "Co-founder",
+			"description": "Educational consultant, cultural consultant, author. Javier has worked in education for more than twenty years for all kinds of international institutions and organizations: he has been a teacher, a technical adviser in the Department of Education of the Spanish Embassy in China, and currently works for the Cervantes Institute as well as being involved with Daukaia. Fan of literature, comics and cinema."
+		},
+		"laura": {
+			"title": "Responsible for communication and fundraising (Spain)",
+			"description": "Social and health worker, traveling the world and with 14 years of experience promoting international cooperation projects in developing countries in Africa, Asia, Latin-Central America, and Eastern Europe in the socio-educational field. She has accompanied and been part of Daukaia since 2018 advising, organizing events and fundraising campaigns, and in 2022 she visited the educators and children of Ocotal for the first time."
+		},
+		"rebecca": {
+			"title": "Head of Communications and Fundraising (Norway)",
+			"description": "Rebecca joined the team to support the development of our Norwegian headquarters and fundraising and outreach in Norway. In addition, thanks to his 16 years of experience in various direct health care functions and the knowledge acquired in his second master's degree in public health that he is currently studying, his great interest in research (especially in the health and social field), advises our work in health matters and contributes to the design of projects."
+		},
+		"ricardo": {
+			"title": "Board member",
+			"description": "Biologist and teacher with a special passion for transmitting knowledge. He joined the team after volunteering in Ocotal in 2017, where he taught not only content, but also strategies for learning, and established the Daukaia Chess Club. Since then, he has remained committed to the children of Ocotal, contributing from his experience in education."
+		}
+	},
+	"work-with": "We also work with",
+	"call-to-action": {
+		"header": "Have we convinced you?",
+		"text": "Interested in colaborating with us?",
+		"button": "Get in touch"
+	},
+	"collaboration": {
+		"monegros": {
+			"name": "Monegros with Nicaragua",
+			"description": "Since 1997 they have contributed to improving the infrastructure of the neighborhood and carrying out projects with an impact on the community. Now, they let us carry out ours in their facilities at the Casa de la Cultura."
+		},
+		"universities": {
+			"name": "Local Universities",
+			"description": "They give us access to bags of volunteers to carry out their internships with us."
+		},
+		"mined": {
+			"name": "MINED and MINSA",
+			"description": "We have the support of the Ministry of Education and the Ministry of Health."
+		},
+		"school": {
+			"name": "The Hermanos Zamora school",
+			"description": "They share their schedules with us and help us keep track of our beneficiaries. We also collaborate in the professional development of our educators and their teachers."
+		}
+	},
+	"website": "website"
 }
