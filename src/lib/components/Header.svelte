@@ -8,6 +8,16 @@
 <header>
 	<nav>
 		<a href="/"><img class="logo" src="/images/daukaia-logo.png" alt="Daukaia logo" /></a>
+		<button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+			<img
+				class="icon-hamburger"
+				src="/images/icons/icon-hamburger.svg"
+				alt=""
+				aria-hidden="true"
+			/>
+			<img class="icon-close" src="/images/icons/icon-close.svg" alt="" aria-hidden="true" />
+			<span class="visually-hidden">Menu</span>
+		</button>
 		<div class="flex flex-row flex-row-center hide-on-mobile">
 			<div class="links ">
 				<a class:active={$page.url.pathname.includes('mission')} href="/mission"
@@ -111,5 +121,25 @@
 	.logo:hover {
 		border: 2px solid var(--clr-accent);
 		border-radius: 50%;
+	}
+	.mobile-nav-toggle {
+		display: none;
+	}
+
+	@media (max-width: 50em) {
+		.mobile-nav-toggle {
+			display: block;
+			position: fixed;
+			top: 2rem;
+			right: 1rem;
+			cursor: pointer;
+			background: transparent;
+			border: 0;
+			padding: 0.5em;
+		}
+
+		.mobile-nav-toggle .icon-close {
+			display: none;
+		}
 	}
 </style>

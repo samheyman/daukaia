@@ -184,7 +184,7 @@ b {
 	width: 100%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 50em) {
 	.even-columns {
 		display: flex;
 		flex-direction: row;
@@ -259,11 +259,24 @@ main {
 	display: block;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 50em) {
 	.hide-on-mobile {
 		display: inherit;
 	}
 	.hide-on-desktop {
 		display: none;
 	}
+}
+
+/* Utiliites */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap; /* added line */
+	border: 0;
 }

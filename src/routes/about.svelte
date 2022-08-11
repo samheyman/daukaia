@@ -264,7 +264,7 @@
 		border-radius: 12px;
 	}
 
-	@media (min-width: 900px) {
+	@media (min-width: 50em) {
 		.profile:not(:first-child) {
 			margin-left: 1rem;
 		}
@@ -277,7 +277,7 @@
 	}
 	.profile b {
 		font-size: 1rem;
-		font-weight: 500;
+		font-weight: 600;
 		text-align: center;
 		color: var(--clr-accent);
 		width: 20ch;
@@ -311,7 +311,7 @@
 		text-align: center;
 		background-color: #fef9f4;
 	}
-	@media (min-width: 900px) {
+	@media (min-width: 50em) {
 		.other-help div:not(:first-child) {
 			margin-left: 1rem;
 		}
