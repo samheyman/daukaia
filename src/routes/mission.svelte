@@ -12,15 +12,39 @@
 	<meta name="description" content="About Daukaia" />
 </svelte:head>
 
-<div class="mission stretch">
-	<div class="container center">
-		<h1>Our mission</h1>
-	</div>
-</div>
+<main class="mission">
+	<section class="hero">
+		<div class="container">
+			<p class="mission-statement">
+				{$t('mission.statement')}
+			</p>
+		</div>
+	</section>
+	<section class="meaning centered">
+		<div class="container">
+			<p class="mission-statement">
+				{$t('mission.daukaia-meaning')}
+			</p>
+		</div>
+	</section>
+</main>
 
 <style>
 	.mission {
-		padding-top: 80px;
-		background-color: #e7e0e0;
+		/* background-color: #e7e0e0; */
+		padding: 80px 0;
+	}
+
+	.hero {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.meaning {
+		background-color: var(--clr-accent);
+		color: white;
 	}
 </style>

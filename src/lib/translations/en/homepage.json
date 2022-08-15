@@ -2,7 +2,11 @@
 	"pageTitle": "Home",
 	"hero": {
 		"title": "We are Daukaia",
-		"paragraph": "Education is the most powerful weapon you can use to change the world, let's use it.",
+		"paragraph": "Building a brighter future for children in Ocotal, Nicaragua, through <em>education</em>, <em>personal development</em> and <em>networking</em>.",
 		"callToAction": "What we do"
+	},
+	"un": {
+		"header": "Sustainable Development Goals",
+		"description": "With our work, we intend to contribute towards the seven following goals of the Sustainable Development Goals defined by the UN."
 	}
 }

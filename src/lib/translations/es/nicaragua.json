@@ -1,0 +1,23 @@
+{
+	"title": "Nicaragua nicaragüita",
+	"description": "Nicaragua es un país precioso y variado, con una comida rica, paisajes maravillosos y una población acogedora y trabajadora.",
+	"opportunities": "Sin embargo, el país se enfrenta a retos que dificultan el acceso a oportunidades para los más vulnerables, entre ellos la pobreza, la calidad educativa y la violencia.",
+	"numbers": {
+		"poverty": "de la población vive por debajo del umbral nacional de pobreza (2016)",
+		"malnourished": "de la población está desnutrida (2019)",
+		"education": "del alumnado no termina el ciclo de la enseñanza Primaria (2012)",
+		"school": "del alumnado de familias con bajo nivel educativo no completa la Secundaria (2021)"
+	},
+	"ocotal": {
+		"header": "Ciudad entre pinos y montañas",
+		"description1": "Situada en el departamento de Nueva Segovia, en el norte de Nicaragua, Ocotal se encuentra a 225 km de Managua y cuenta con una población cercana a los 40.000 habitantes. ",
+		"description2": "Rodeada de frondosas montañas verdes, Ocotal está formada por 26 barrios y su población vive principalmente de la agricultura de subsistencia o del sector servicios (economía sumergida en la mayoría de casos).",
+		"description3": "En la última década, el desarrollo del país se ha visto frenado en parte por la crisis socio-política y económica y el impacto de la pandemia. Los habitantes de Ocotal se han visto afectados por fenómenos naturales (como los huracanes Eta e Iota), desempleo, cambio climático que pone en riesgo la estabilidad de la familia en muchos contextos: educación, nutrición, salud mental... "
+	},
+	"challenges": {
+		"header": "Retos acutales",
+		"paragraph1": "Al no tener muchas alternativas laborales, muchas madres y padres de familia han tenido que emigrar. Otros trabajan jornadas interminables, por lo que muchos niños y niñas han quedado en manos de otros familiares como abuelos o tíos. Esta situación encontrada en los hogares se manifiesta en dificultades en la escuela, así como conductas de riesgo (drogadicción, alcoholismo, maltrato infantil, violencia intrafamiliar).",
+		"paragraph2": "La pandemia también ha provocado nuevas dificultades económicas, sociales y emocionales: pérdidas de empleo, duelo, enfermedad (tanto en niños/as, sus familias, los docentes), además del cierre de muchas ONGs locales e internacionales en Nicaragua.",
+		"paragraph3": "Este año, por lo tanto, intensificaremos nuestros esfuerzas para paliar las dificultades y ser el mayor recurso posible para la infancia de Ocotal."
+	}
+}

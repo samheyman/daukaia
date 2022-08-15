@@ -1,0 +1,21 @@
+{
+	"title": "Colaborate with us",
+	"header": "Do you also believe that a better world is possible?",
+	"quote": "I was born and live in Madrid, I work in the healthcare sector. I have always collaborated with NGOs related to children, they are my weakness. My first contact with Daukaia was through my son. He was in Ocotal, he learned more than he could contribute, he conveyed to me his enthusiasm and his gratitude for this project and I decided to support you so that you continue helping these children for many years. Hopefully the time will come when they won't need it!",
+	"quote-author": "Maite Méndez, Daukaia donor",
+	"generosity": {
+		"header": "With your generosity",
+		"bank-card": {
+			"description": "By bank card",
+			"migranodearena": "<a target=\"_blank\" href=\"https://www.migranodearena.org/usuario/daukaia-a09\">migranodearena.org</a>",
+			"donately": "<a href=\"https://pages.donately.com/daukaia/campaigns\" target=\"_blank\">pages.donately.com/daukaia/campaigns</a>"
+		},
+		"transfer": "By bank transfer:<ul style=\"margin-left:2rem\"><li>IBAN: ES85 0049 1954 1120 1000 9978</li><li>BIC: BSCHESMMXXX</li>",
+		"direct-debit": "By direct debit, filling out the <a href=\"/forms/Formulario-de-donaciones.pdf\">donation form</a> and sending it scanned to hola@daukaia.org. To unsubscribe, simply write to us again and we'll cancel the direct debit.",
+		"facebook": "Via Facebook by clicking the button <a target=\"_blank\" href=\"https://www.facebook.com/Daukaia\">donate</a>"
+	},
+	"time": {
+		"header": "With your time",
+		"volunteering": "Our volunteering is tailor-made. Write to us at hola@daukaia.org if you want to join our team."
+	}
+}

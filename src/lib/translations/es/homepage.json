@@ -2,7 +2,11 @@
 	"pageTitle": "Home",
 	"hero": {
 		"title": "Somos Daukaia",
-		"paragraph": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+		"paragraph": "Construyendo un futuro mejor para la infancia de Ocotal desde la educación, el desarrollo personal y el trabajo en red.",
 		"callToAction": "Les mas"
+	},
+	"un": {
+		"header": "Objetivos de Desarrollo Sostenible",
+		"description": "Con nuestro trabajo, pretendemos contribuir hacia las siguientes metas de los Objetivos de Desarrollo Sostenible definidos por la ONU."
 	}
 }

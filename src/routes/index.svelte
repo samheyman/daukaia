@@ -9,17 +9,27 @@
 	<meta name="Description" content="Cybernetically enhanced web apps" />
 </svelte:head>
 
-<main class="no-padding">
+<main class="no-padding homepage">
 	<section class="hero-image ">
 		<div class="hero-text container">
-			<h1 class="fs-primary-heading">{$t('homepage.hero.title')}</h1>
-			<p>{$t('homepage.hero.paragraph')}</p>
-			<a class="button" href="/mission">{$t('homepage.hero.callToAction')}</a>
+			<h1 class="fs-primary-heading">{@html $t('homepage.hero.paragraph')}</h1>
+			<!-- <p>{$t('homepage.hero.paragraph')}</p> -->
+			<!-- <a class="button" href="/mission">{$t('homepage.hero.callToAction')}</a> -->
+		</div>
+	</section>
+	<section class="un-sustainability">
+		<div class="full-blead centered">
+			<h1>{$t('homepage.un.header')}</h1>
+			<p>{$t('homepage.un.description')}</p>
+			<img src="/images/un_sustainability.png" alt="ONG" width="400" />
 		</div>
 	</section>
 </main>
 
 <style>
+	.homepage {
+		--accent-clr: hsl(33, 87%, 56%);
+	}
 	.hero-image {
 		/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
 		/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -46,6 +56,25 @@
 		transform: translate(-50%, -50%);
 		color: white;
 	}
+
+	h1 {
+		font-size: 2.25rem;
+		line-height: 1.25;
+	}
+
+	.un-sustainability {
+		background-color: #fff;
+	}
+
+	.un-sustainability h1 {
+		margin: 0;
+	}
+
+	.un-sustainability p {
+		margin: 2rem;
+		max-width: min(60ch, 80vw);
+	}
+
 	a.button {
 		padding: 8px 22px;
 		text-align: center;

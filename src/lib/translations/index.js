@@ -40,6 +40,46 @@ const config = {
 		},
 		{
 			locale: 'en',
+			key: 'mission',
+			loader: async () => (await import('./en/mission.json')).default
+		},
+		{
+			locale: 'es',
+			key: 'mission',
+			loader: async () => (await import('./es/mission.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'nicaragua',
+			loader: async () => (await import('./en/nicaragua.json')).default
+		},
+		{
+			locale: 'es',
+			key: 'nicaragua',
+			loader: async () => (await import('./es/nicaragua.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'contribute',
+			loader: async () => (await import('./en/contribute.json')).default
+		},
+		{
+			locale: 'es',
+			key: 'contribute',
+			loader: async () => (await import('./es/contribute.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'contact',
+			loader: async () => (await import('./en/contact.json')).default
+		},
+		{
+			locale: 'es',
+			key: 'contact',
+			loader: async () => (await import('./es/contact.json')).default
+		},
+		{
+			locale: 'en',
 			key: 'footer',
 			loader: async () => (await import('./en/footer.json')).default
 		},

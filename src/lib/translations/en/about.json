@@ -10,6 +10,8 @@
 		"quote-paragraph": "We are small but our dreams are big and in collaboration with others we will achieve more. We seek synergies in all areas to be more efficient."
 	},
 	"team": {
+		"header": "Meet the team",
+		"about": "We are teachers, we believe in people and we want to contribute to the development of the community by giving them the tools to facilitate their autonomy in the future.",
 		"local-team": "Local team",
 		"team": "International team",
 		"martha": {
@@ -25,7 +27,7 @@
 			"description": "Mayeling studied sociology and has experience working with children with special needs. In addition to supporting educators, it promotes personal development activities, including dance workshops."
 		},
 		"eline": {
-			"title": "CEO",
+			"title": "Executive Director",
 			"description": "Teacher, pedagogical advisor and coordinator of educational projects for social transformation. Collaborate in training actions for teachers. She accompanies and supports the educators of Daukaia since 2013. Responsible for the design, implementation and evaluation of projects in collaboration with the local team. Coordinates the work carried out in Ocotal, Spain and Norway."
 		},
 		"alberto": {
@@ -37,7 +39,7 @@
 			"description": "Educational consultant, cultural consultant, author. Javier has worked in education for more than twenty years for all kinds of international institutions and organizations: he has been a teacher, a technical adviser in the Department of Education of the Spanish Embassy in China, and currently works for the Cervantes Institute as well as being involved with Daukaia. Fan of literature, comics and cinema."
 		},
 		"laura": {
-			"title": "Responsible for communication and fundraising (Spain)",
+			"title": "Head of Communications and Fundraising (Spain)",
 			"description": "Social and health worker, traveling the world and with 14 years of experience promoting international cooperation projects in developing countries in Africa, Asia, Latin-Central America, and Eastern Europe in the socio-educational field. She has accompanied and been part of Daukaia since 2018 advising, organizing events and fundraising campaigns, and in 2022 she visited the educators and children of Ocotal for the first time."
 		},
 		"rebecca": {
@@ -73,5 +75,6 @@
 			"description": "They share their schedules with us and help us keep track of our beneficiaries. We also collaborate in the professional development of our educators and their teachers."
 		}
 	},
+
 	"website": "website"
 }

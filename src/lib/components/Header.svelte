@@ -20,17 +20,31 @@
 		</button>
 		<div class="flex flex-row flex-row-center hide-on-mobile">
 			<div class="links ">
+				<a
+					class:active={!$page.url.pathname.includes('mission') &&
+						!$page.url.pathname.includes('about') &&
+						!$page.url.pathname.includes('nicaragua') &&
+						!$page.url.pathname.includes('contribute') &&
+						!$page.url.pathname.includes('contact')}
+					href="/">Home</a
+				>
 				<a class:active={$page.url.pathname.includes('mission')} href="/mission"
 					>{$t('navbar.mission')}</a
 				>
+				<a class:active={$page.url.pathname.includes('nicaragua')} href="/nicaragua">Nicaragua</a>
 
-				<a class:active={path.includes('about')} href="/about">{$t('navbar.about')}</a>
+				<a class:active={$page.url.pathname.includes('about')} href="/about">{$t('navbar.about')}</a
+				>
 
-				<a class:active={path.includes('contact')} href="/contact">{$t('navbar.contact')}</a>
+				<a class:active={$page.url.pathname.includes('contact')} href="/contact"
+					>{$t('navbar.contact')}</a
+				>
 			</div>
 			<div class="call-to-action">
-				<a class:active={path.includes('contribute')} href="/contribute"
-					>{$t('navbar.contribute')}</a
+				<a
+					class="inverted"
+					class:active={$page.url.pathname.includes('contribute')}
+					href="/contribute">{$t('navbar.contribute')}</a
 				>
 			</div>
 			<select bind:value={$locale}>
@@ -88,6 +102,7 @@
 		color: #fff;
 		margin-left: 25px;
 	}
+
 	select {
 		margin-left: 25px;
 	}
@@ -100,6 +115,9 @@
 	}
 	a.active {
 		color: var(--clr-accent);
+	}
+	a.inverted.active {
+		color: white;
 	}
 	select {
 		background-color: transparent;

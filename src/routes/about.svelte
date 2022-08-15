@@ -12,7 +12,7 @@
 	<meta name="description" content="About Daukaia" />
 </svelte:head>
 
-<main>
+<main class="about">
 	<section class="hero">
 		<div class="container">
 			<p class="mission-statement">
@@ -40,10 +40,9 @@
 
 	<section class="the-team">
 		<div class="container centered">
-			<h1>Meet the team</h1>
+			<h1>{$t('about.team.header')}</h1>
 			<p>
-				Somos profesores, creemos en las personas y queremos contribuir al desarrollo de la
-				comunidad dando las herramientas para facilitar su autonomía en el futuro.
+				{$t('about.team.about')}
 			</p>
 			<h2>{$t('about.team.local-team')}</h2>
 
@@ -194,7 +193,7 @@
 	}
 
 	.about {
-		background-color: #cecece;
+		/* background-color: #cecece; */
 		width: 100%;
 		/* grid-template-columns: 1fr 1fr;
 		grid-gap: 1em;
@@ -291,6 +290,7 @@
 	.profile-picture {
 		border-radius: 50%;
 		max-height: 150px;
+		border: 8px solid var(--clr-accent);
 	}
 
 	.other-help > div {

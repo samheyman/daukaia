@@ -1,8 +1,11 @@
 :root {
+	--yelllow: hsl(33, 87%, 56%);
+	--orange: hsl(10, 86%, 67%);
+	--green: hsl(171, 46%, 52%);
 	/* COLORS */
-	--accent-color-hue: 33;
-	--accent-color-sat: 87%;
-	--accent-color-light: 56%;
+	--accent-color-hue: 171;
+	--accent-color-sat: 46%;
+	--accent-color-light: 52%;
 
 	--clr-accent-700: hsla(
 		var(--accent-color-hue),
@@ -138,6 +141,10 @@
 .flex-center {
 	justify-content: center;
 	align-items: center;
+}
+
+html {
+	overflow-y: scroll;
 }
 
 body {
@@ -279,4 +286,8 @@ main {
 	clip: rect(0, 0, 0, 0);
 	white-space: nowrap; /* added line */
 	border: 0;
+}
+
+.homepage em {
+	/* color: var(--green); */
 }

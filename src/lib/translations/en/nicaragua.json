@@ -1,0 +1,23 @@
+{
+	"title": "Nicaragua nicaragüita",
+	"description": "Nicaragua es un país precioso y variado, con una comida rica, paisajes maravillosos y una población acogedora y trabajadora.",
+	"opportunities": "Sin embargo, el país se enfrenta a retos que dificultan el acceso a oportunidades para los más vulnerables, entre ellos la pobreza, la calidad educativa y la violencia.",
+	"numbers": {
+		"poverty": "of the population lives below the national poverty line (2016)",
+		"malnourished": "of the population is undernourished (2019)",
+		"education": "of students do not finish the cycle of primary education (2012)",
+		"school": "of students from families with a low educational level do not complete secondary school (2021)"
+	},
+	"ocotal": {
+		"header": "City between pines and mountains",
+		"description1": "Located in the department of Nueva Segovia, in the north of Nicaragua, Ocotal is 225 km from Managua and has a population of around 40,000 inhabitants.",
+		"description2": "Surrounded by lush green mountains, Ocotal is made up of 26 neighborhoods and its population lives mainly from subsistence agriculture or the service sector (submerged economy in most cases).",
+		"description3": "In the last decade, the country's development has been slowed down in part by the socio-political and economic crisis and the impact of the pandemic. The inhabitants of Ocotal have been affected by natural phenomena (such as hurricanes Eta and Iota), unemployment, climate change that puts the stability of the family at risk in many contexts: education, nutrition, mental health..."
+	},
+	"challenges": {
+		"header": "Current challenges",
+		"paragraph1": "Not having many job alternatives, many mothers and fathers have had to emigrate. Others work endless hours, so many boys and girls have been left in the hands of other relatives such as grandparents or uncles. This situation found in homes is manifested in difficulties at school, as well as risk behaviors (drug addiction, alcoholism, child abuse, domestic violence).",
+		"paragraph2": "The pandemic has also caused new economic, social and emotional difficulties: job losses, bereavement, illness (both in children, their families, teachers), in addition to the closure of many local and international NGOs in Nicaragua.",
+		"paragraph3": "This year, therefore, we will intensify our efforts to alleviate the difficulties and be the greatest possible resource for the children of Ocotal."
+	}
+}
