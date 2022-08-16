@@ -288,6 +288,61 @@ main {
 	border: 0;
 }
 
-.homepage em {
-	/* color: var(--green); */
+.homepage .word-spin {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	overflow: hidden;
+	height: 44px;
+}
+
+.homepage .words {
+	/* overflow: hidden;? */
+}
+
+.homepage span,
+.hero-text h1 {
+	font-size: 2.25rem;
+	line-height: 1.25;
+	font-weight: 600;
+	text-shadow: 0 0 5px #666;
+	margin: 0;
+}
+
+.homepage span {
+	color: var(--green);
+	/* transform: translateY(-82%); */
+
+	display: block;
+	animation: spin_words 6s infinite;
+	padding-left: 10px;
+	height: 100%;
+	text-align: start;
+	width: fit-content;
+	/* border: 1px solid white; */
+}
+
+/* 1% */
+/* 101% */
+/* 201% */
+
+@keyframes spin_words {
+	13% {
+		transform: translateY(-112%);
+	}
+	33% {
+		transform: translateY(-101%);
+	}
+	46% {
+		transform: translateY(-212%);
+	}
+	66% {
+		transform: translateY(-201%);
+	}
+	80% {
+		transform: translateY(-312%);
+	}
+	100% {
+		transform: translateY(-301%);
+	}
 }

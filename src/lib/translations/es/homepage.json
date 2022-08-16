@@ -2,7 +2,8 @@
 	"pageTitle": "Home",
 	"hero": {
 		"title": "Somos Daukaia",
-		"paragraph": "Construyendo un futuro mejor para la infancia de Ocotal desde la educación, el desarrollo personal y el trabajo en red.",
+		"paragraph": "Construyendo un futuro mejor para la infancia de Ocotal, Nicaragua,",
+		"paragraph-words": "<h1 class=\"fs-primary-heading\">desde</h1><div class=\"words\"><span>la educación</span><span>el desarrollo personal</span><span>el trabajo en red</span><span>la educación</span></div>",
 		"callToAction": "Les mas"
 	},
 	"un": {

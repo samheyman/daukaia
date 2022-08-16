@@ -13,6 +13,10 @@
 	<section class="hero-image ">
 		<div class="hero-text container">
 			<h1 class="fs-primary-heading">{@html $t('homepage.hero.paragraph')}</h1>
+			<div class="word-spin">
+				{@html $t('homepage.hero.paragraph-words')}
+			</div>
+
 			<!-- <p>{$t('homepage.hero.paragraph')}</p> -->
 			<!-- <a class="button" href="/mission">{$t('homepage.hero.callToAction')}</a> -->
 		</div>
@@ -49,8 +53,8 @@
 
 	/* Place text in the middle of the image */
 	.hero-text {
-		text-align: center;
 		position: absolute;
+		/* display: flex; */
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -60,6 +64,7 @@
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.25;
+		text-shadow: 0 0 5px #666;
 	}
 
 	.un-sustainability {
