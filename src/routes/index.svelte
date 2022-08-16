@@ -61,9 +61,9 @@
 		color: white;
 	}
 
-	h1 {
+	.hero-text h1 {
 		font-size: 2.25rem;
-		line-height: 1.25;
+		line-height: 44px;
 		text-shadow: 0 0 5px #666;
 	}
 
