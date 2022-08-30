@@ -83,6 +83,13 @@
 						>{$t('navbar.contact')}</a
 					>
 				</li>
+				<li>
+					<a
+						class="inverted"
+						class:active={$page.url.pathname.includes('contribute')}
+						href="/contribute">{$t('navbar.contribute')}</a
+					>
+				</li>
 			</ul>
 		</nav>
 		<div class="flex flex-row flex-row-center hide-on-mobile">
