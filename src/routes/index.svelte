@@ -13,12 +13,9 @@
 	<section class="hero-image ">
 		<div class="hero-text container">
 			<h1 class="fs-primary-heading">{@html $t('homepage.hero.paragraph')}</h1>
-			<div class="word-spin">
+			<!-- <div class="word-spin">
 				{@html $t('homepage.hero.paragraph-words')}
-			</div>
-
-			<!-- <p>{$t('homepage.hero.paragraph')}</p> -->
-			<!-- <a class="button" href="/mission">{$t('homepage.hero.callToAction')}</a> -->
+			</div> -->
 		</div>
 	</section>
 	<section class="un-sustainability">
