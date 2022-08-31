@@ -58,6 +58,11 @@
 		color: white;
 	}
 
+	.hero-text .container {
+		padding: 2rem;
+		background-color: hsl(0, 0%, 0%, 0.3);
+	}
+
 	.hero-text h1 {
 		font-size: 2.25rem;
 		line-height: 44px;
