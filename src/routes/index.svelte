@@ -58,7 +58,7 @@
 		color: white;
 	}
 
-	.hero-text .container {
+	.hero-text.container {
 		padding: 2rem;
 		background-color: hsl(0, 0%, 0%, 0.3);
 	}
@@ -66,7 +66,7 @@
 	.hero-text h1 {
 		font-size: 2.25rem;
 		line-height: 44px;
-		text-shadow: 0 0 5px #666;
+		/* text-shadow: 0 0 5px #666; */
 	}
 
 	.un-sustainability {
