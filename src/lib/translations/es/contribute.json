@@ -5,14 +5,17 @@
 	"quote-author": "Maite Méndez, donante y amiga de Daukaia",
 	"generosity": {
 		"header": "Con tu generosidad",
+		"paragraph": "Estamos extremadamente agradecidos por todas las donaciones, particularmente las donaciones regulares, incluso las pequeñas cantidades. El dinero que recibimos se destina en gran medida a ayudarnos. Si desea donar, aceptamos las siguientes formas de pago.",
 		"bank-card": {
 			"description": "Con tarjeta bancaria",
 			"migranodearena": "<a target=\"_blank\" href=\"https://www.migranodearena.org/usuario/daukaia-a09\">migranodearena.org</a>",
 			"donately": "<a href=\"https://pages.donately.com/daukaia/campaigns\" target=\"_blank\">pages.donately.com/daukaia/campaigns</a>"
 		},
-		"transfer": "Por transferencia bancaria:<ul style=\"margin-left:2rem\"><li>IBAN: ES85 0049 1954 1120 1000 9978</li><li>BIC: BSCHESMMXXX</li>",
-		"direct-debit": "Por domiciliación bancaria, rellenando el <a href=\"/forms/Formulario-de-donaciones.pdf\">formulario de donaciones</a> y enviándolo escaneado a hola@daukaia.org. Para darte de baja, nos vuelves a escribir y ya está.",
-		"facebook": "Por Facebook en el botón de <a target=\"_blank\" href=\"https://www.facebook.com/Daukaia\">donar</a>"
+		"transfer": "Por transferencia bancaria:<br/><span class='bank-details'>IBAN: ES85 0049 1954 1120 1000 9978<br/>BIC: BSCHESMMXXX</span>",
+		"direct-debit": "Por domiciliación bancaria<br/>Rellenando el <a href=\"/forms/Formulario-de-donaciones.pdf\">formulario de donaciones</a> y enviándolo escaneado a hola@daukaia.org. Para darte de baja, nos vuelves a escribir y ya está.",
+		"facebook": "Por Facebook en el botón de <a target=\"_blank\" href=\"https://www.facebook.com/Daukaia\">donar</a>",
+		"donorbox": "Por Donorbox (Paypal)",
+		"spain-residents": "Si eres residente en España, también admitimos los siguientes métodos:"
 	},
 	"time": {
 		"header": "Con tu tiempo",

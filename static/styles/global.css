@@ -331,6 +331,11 @@ main {
 		width: fit-content; */
 	/* border: 1px solid white; */
 }
+
+.bank-details {
+	color: #666;
+	font-style: italic;
+}
 /* } */
 
 /* 1% */
