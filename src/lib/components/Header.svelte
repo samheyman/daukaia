@@ -51,7 +51,7 @@
 		</button>
 		<nav class="primary-navigation" id="primary-navigation">
 			<ul aria-label="Primary" role="list" class="nav-list">
-				<li>
+				<!-- <li>
 					<a
 						class="link"
 						class:active={!$page.url.pathname.includes('mission') &&
@@ -61,7 +61,7 @@
 							!$page.url.pathname.includes('contact')}
 						href="/">Home</a
 					>
-				</li>
+				</li> -->
 				<li>
 					<a class="link" class:active={$page.url.pathname.includes('mission')} href="/mission"
 						>{$t('navbar.mission')}</a
@@ -94,14 +94,14 @@
 		</nav>
 		<div class="flex flex-row flex-row-center hide-on-mobile">
 			<div class="links ">
-				<a
+				<!-- <a
 					class:active={!$page.url.pathname.includes('mission') &&
 						!$page.url.pathname.includes('about') &&
 						!$page.url.pathname.includes('nicaragua') &&
 						!$page.url.pathname.includes('contribute') &&
 						!$page.url.pathname.includes('contact')}
 					href="/">Home</a
-				>
+				> -->
 				<a class:active={$page.url.pathname.includes('mission')} href="/mission"
 					>{$t('navbar.mission')}</a
 				>
@@ -166,7 +166,7 @@
 	}
 	.call-to-action a {
 		color: #000;
-		font-weight: 600;
+		font-weight: 700;
 	}
 	.call-to-action:hover {
 		color: #000;
@@ -175,13 +175,14 @@
 	.links a {
 		color: #fff;
 		margin-left: 25px;
+		font-weight: bold;
 	}
 
 	select {
 		margin-left: 25px;
 	}
 	.links a:not(:first-child) {
-		border-left: 1px solid white;
+		/* border-left: 1px solid white; */
 		padding-left: 20px;
 	}
 	.links a:hover {

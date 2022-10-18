@@ -3,14 +3,14 @@
 </script>
 
 <footer>
-	<div class="association-details">
+	<!-- <div class="association-details">
 		<div class="container">
 			<p>{$t('footer.name')}</p>
 			<p>{$t('footer.bank-details')}</p>
 			<p>{$t('footer.registration')}</p>
 			<p>hola@daukaia.org</p>
 		</div>
-	</div>
+	</div> -->
 	<div class=" copyright">
 		<p>©2022. {$t('footer.copyright')}</p>
 		<div>
@@ -24,12 +24,12 @@
 	footer {
 		flex-shrink: 0;
 		border-top: 3px solid var(--clr-accent);
-		background-color: #f6f6f6;
+		background-color: #262626;
 		position: relative;
 		bottom: 0;
 	}
 	p {
-		color: #818181;
+		color: #bababa;
 		font-size: 0.9rem;
 		text-align: center;
 		margin: 0;

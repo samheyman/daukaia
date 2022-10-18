@@ -5,7 +5,15 @@
 <svelte:head>
 	<title>Daukaia • {$t('contact.title')}</title>
 </svelte:head>
-<main>
+<main class="no-padding">
+	<section class="hero-image ">
+		<div class="hero-text container">
+			<h1>{@html $t('about.hero.paragraph')}</h1>
+			<!-- <div class="word-spin">
+				{@html $t('homepage.hero.paragraph-words')}
+			</div> -->
+		</div>
+	</section>
 	<section class="contact ">
 		<div class="container">
 			<div class="even-columns">
@@ -63,6 +71,44 @@
 </main>
 
 <style>
+	.hero-image {
+		/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+		/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url('/images/IMG_8660.jpg'); */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35)),
+			url('/images/homework.png');
+
+		/* Set a specific height */
+		min-height: 66vh;
+		/* outline: 1px solid red; */
+		/* Position and center the image to scale nicely on all screens */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* position: relative; */
+	}
+	.hero-text {
+		position: absolute;
+		/* display: flex; */
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+
+	.hero-text.container {
+		padding: 2rem;
+		width: min(100%, 600px);
+		/* background-color: hsl(0, 0%, 0%, 0.3); */
+	}
+
+	.hero-text h1 {
+		font-size: 4.25rem;
+		line-height: 5rem;
+		text-transform: uppercase;
+		text-align: center;
+		/* text-shadow: 0 0 5px #666; */
+	}
 	.left {
 		padding: 3rem;
 	}

@@ -52,7 +52,7 @@
 	--fs-800: 3.5rem;
 
 	--fs-body: var(--fs-400);
-	--fs-primary-heading: var(--fs-700);
+	--fs-primary-heading: var(--fs-800);
 	--fs-secondary-heading: var(--fs-600);
 	--fs-nav: var(--fs-500);
 	--fs-button: var(--fs-600);
@@ -98,7 +98,7 @@
 	background-color: var(--clr-neutral-100);
 }
 .bg-neutral-400 {
-	background-color: var(--clr-neutral-400);
+	background-color: #f5f5f5;
 }
 
 .fw-bold {
@@ -310,14 +310,14 @@ main {
 	display: inline;
 }
 
-.homepage span,
+/* .homepage span,
 .hero-text h1 {
 	font-size: 2.25rem;
 	line-height: 44px;
 	font-weight: 600;
 	text-shadow: 0 0 5px #red;
 	margin: 0;
-}
+} */
 
 .homepage span {
 	color: var(--green);

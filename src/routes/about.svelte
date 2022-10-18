@@ -12,20 +12,28 @@
 	<meta name="description" content="About Daukaia" />
 </svelte:head>
 
-<main class="about">
-	<section class="hero">
+<main class="no-padding about">
+	<section class="hero-image ">
+		<div class="hero-text container">
+			<h1>{@html $t('about.hero.paragraph')}</h1>
+			<!-- <div class="word-spin">
+				{@html $t('homepage.hero.paragraph-words')}
+			</div> -->
+		</div>
+	</section>
+	<!-- <section class="hero">
 		<div class="container">
 			<p class="mission-statement">
 				{@html $t('about.mission-statement')}
 			</p>
 		</div>
-	</section>
+	</section> -->
 
-	<section class="image no-padding">
+	<!-- <section class="image no-padding">
 		<div class="full-bleed">
 			<img alt="Teacher talking to children" src="/images/IMG_7961.jpg" />
 		</div>
-	</section>
+	</section> -->
 	<!-- <div class="vision">
 		<h1>{$t('about.vision')}</h1>
 		<h2 />
@@ -176,13 +184,51 @@
 </main>
 
 <style>
-	.hero {
+	/* .hero {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 		padding: 80px 0;
+	} */
+	.hero-image {
+		/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+		/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url('/images/IMG_8660.jpg'); */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35)),
+			url('/images/IMG_7961.jpg');
+
+		/* Set a specific height */
+		min-height: 66vh;
+		/* outline: 1px solid red; */
+		/* Position and center the image to scale nicely on all screens */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* position: relative; */
+	}
+	.hero-text {
+		position: absolute;
+		/* display: flex; */
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+
+	.hero-text.container {
+		padding: 2rem;
+		width: min(100%, 600px);
+		/* background-color: hsl(0, 0%, 0%, 0.3); */
+	}
+
+	.hero-text h1 {
+		font-size: 4.25rem;
+		line-height: 5rem;
+		text-transform: uppercase;
+		text-align: center;
+		/* text-shadow: 0 0 5px #666; */
 	}
 	.mission-statement {
 		font-size: 3rem;
