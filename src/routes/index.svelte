@@ -6,7 +6,6 @@
 	<title>Daukaia • {$t('homepage.pageTitle')}</title>
 	<meta name="twitter:title" content="Svelte" />
 	<meta name="twitter:description" content="Cybernetically enhanced web apps" />
-	<meta name="Description" content="Cybernetically enhanced web apps" />
 </svelte:head>
 
 <main class="no-padding homepage">
@@ -22,14 +21,39 @@
 		<div class="full-blead centered">
 			<h1>Who we are</h1>
 			<p>
-				We believe that by granting access to resources, knowledge, opportunities and the developing
-				of skills, strengths and values, we will help towards resolution of the impact of economic
-				and social challenges in Ocotal.
+				We are a small non-profit helping make an impact on children's lives in Ocotal, Nicaragua,
+				by developing key skills, strengths and values.
 			</p>
-			<a href="/about">Read more about us</a>
+			<a href="/about">Learn more about us</a>
 		</div>
 	</section>
-	<section class="social">
+	<section class="bg-accent-500 pillars">
+		<div class="full-blead centered">
+			<h1>Our four pillars</h1>
+			<div class="container">
+				<div class="even-columns">
+					<div class="item centered">
+						<img src="/images/icons/nutrition.png" />
+						<span>Nutrition</span>
+					</div>
+					<div class="item centered">
+						<img src="/images/icons/hygene.png" />
+						<span>Hygene</span>
+					</div>
+					<div class="item centered">
+						<img src="/images/icons/education.png" />
+						<span>Education</span>
+					</div>
+					<div class="item centered">
+						<img src="/images/icons/personal_development.png" />
+						<span>Personal development</span>
+					</div>
+				</div>
+			</div>
+			<a href="/mission">Read more about our mission</a>
+		</div>
+	</section>
+	<section class="social bg-neutral-100">
 		<div class="container centered">
 			<h1>{$t('contact.follow-us.header')}</h1>
 			<p>{$t('contact.follow-us.description')}</p>
@@ -62,7 +86,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="report">
+	<section class="report bg-neutral-400">
 		<div class="container centered">
 			<h1>{$t('contact.download')}</h1>
 			<a target="_blank" href="https://www.canva.com/design/DAE6fPLPQjk/FRIlejpSXZDlVQiDQhxtwQ/view"
@@ -148,6 +172,31 @@
 		color: var(--clr-accent);
 	}
 
+	.pillars {
+		color: #fff;
+	}
+
+	.pillars a {
+		color: #fff;
+	}
+
+	.pillars .item {
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #fff;
+		margin-bottom: 1.5rem;
+		padding: 0 2rem;
+	}
+
+	.pillars span {
+		color: #333;
+		padding-top: 1rem;
+	}
+
+	.pillars img {
+		height: 120px;
+	}
+
 	.un-sustainability {
 		background-color: #fff;
 	}
@@ -183,7 +232,6 @@
 	}
 	.social {
 		padding: 6rem 0;
-		background-color: #f5f5f5;
 	}
 	.social-icons {
 		display: flex;
@@ -200,11 +248,10 @@
 		margin: 0 0.5rem;
 	}
 	.report {
-		background-color: var(--green);
 	}
 	.report h1 {
 		font-size: 2rem;
-		color: white;
+		/* color: white; */
 		margin: 0 0 1.5rem 0;
 	}
 	.report img {
@@ -218,7 +265,7 @@
 	}
 
 	.report p {
-		color: #fff;
+		/* color: #fff; */
 		margin: 1.5rem 0 0;
 	}
 	footer {
