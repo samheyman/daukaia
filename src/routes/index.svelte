@@ -21,8 +21,8 @@
 		<div class="full-blead centered">
 			<h1>Who we are</h1>
 			<p>
-				We are a small non-profit helping make an impact on children's lives in Ocotal, Nicaragua,
-				by developing key skills, strengths and values.
+				We are a small non-profit helping children in Ocotal, Nicaragua, to develop key skills,
+				strengths and values.
 			</p>
 			<a href="/about">Learn more about us</a>
 		</div>
@@ -53,7 +53,14 @@
 			<a href="/mission">Read more about our mission</a>
 		</div>
 	</section>
-	<section class="social bg-neutral-100">
+	<section class="social bg-neutral-400">
+		<div class="container centered">
+			<h1>Celebrating 10 years!</h1>
+			<p>{$t('contact.follow-us.description')}</p>
+			<a href="/about">Read more about our history</a>
+		</div>
+	</section>
+	<section class="social bg-neutral-500">
 		<div class="container centered">
 			<h1>{$t('contact.follow-us.header')}</h1>
 			<p>{$t('contact.follow-us.description')}</p>
@@ -173,11 +180,11 @@
 	}
 
 	.pillars {
-		color: #fff;
+		/* color: #fff; */
 	}
 
 	.pillars a {
-		color: #fff;
+		color: #000;
 	}
 
 	.pillars .item {

@@ -21,18 +21,27 @@
 			</div> -->
 		</div>
 	</section>
-	<section class="hero">
+	<section class="first">
 		<div class="container">
-			<p class="mission-statement">
+			<h1>Our mission</h1>
+			<!-- <p class="mission-statement">
 				{$t('mission.statement')}
+			</p> -->
+			<p>
+				Our vision is a community where all children have a real chance of becoming independent
+				adults who can pursue a career, make empowered, autonomous life choices and become change
+				agents that contribute to the greater good. Furthermore all children deserve the chance to
+				grow in a nurturing environment with continuity of care, fundamental to their health and
+				development.
 			</p>
 		</div>
 	</section>
 	<section class="meaning centered">
 		<div class="container">
-			<p class="mission-statement">
+			<!-- <h1>Daukaia</h1> -->
+			<h3 class="mission-statement">
 				{$t('mission.daukaia-meaning')}
-			</p>
+			</h3>
 		</div>
 	</section>
 </main>
@@ -77,12 +86,26 @@
 		/* text-shadow: 0 0 5px #666; */
 	}
 
-	.hero {
+	.first {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
+	}
+
+	.first h1 {
+		font-size: 1.25rem;
+		text-transform: uppercase;
+		font-weight: 500;
+		/* color: var(--clr-accent); */
+		margin: 0;
+		text-align: center;
+	}
+
+	.first p {
+		margin: 20px 0;
+		text-align: center;
 	}
 
 	.meaning {

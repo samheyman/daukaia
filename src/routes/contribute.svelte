@@ -9,7 +9,7 @@
 <main class="contribute no-padding">
 	<section class="hero-image ">
 		<div class="hero-text container">
-			<h1>{@html $t('contribute.hero.paragraph')}</h1>
+			<h1>Giving children the gift of a bright future</h1>
 			<!-- <div class="word-spin">
 				{@html $t('homepage.hero.paragraph-words')}
 			</div> -->
@@ -18,28 +18,10 @@
 
 	<section class="">
 		<div class="container">
-			<div class="">
-				<h1>{$t('contribute.generosity.header')}</h1>
+			<div class="first">
+				<h1>Contribute</h1>
 				<p>{$t('contribute.generosity.paragraph')}</p>
-				<ul>
-					<!-- <li>{@html $t('contribute.generosity.transfer')}</li>
-							<li>{@html $t('contribute.generosity.facebook')}</li> -->
-					<li>
-						<!-- {@html $t('contribute.generosity.donorbox')}<br /><br /> -->
 
-						<script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe
-							src="https://donorbox.org/embed/daukaia"
-							name="donorbox"
-							allowpaymentrequest="allowpaymentrequest"
-							seamless="seamless"
-							frameborder="0"
-							scrolling="no"
-							height="900px"
-							width="100%"
-							style="max-width: 500px; min-width: 250px; max-height:none!important"
-						/>
-					</li>
-				</ul>
 				<!-- <p> -->
 				<!-- &#127466;&#127480; -->
 				<!-- {@html $t('contribute.generosity.spain-residents')}
@@ -53,21 +35,47 @@
 							</li>
 							<li>{@html $t('contribute.generosity.direct-debit')}</li>
 						</ul> -->
+				<script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe
+					src="https://donorbox.org/embed/daukaia"
+					name="donorbox"
+					allowpaymentrequest="allowpaymentrequest"
+					seamless="seamless"
+					frameborder="0"
+					scrolling="no"
+					height="900px"
+					width="400px"
+					style="max-width: 500px; min-width: 250px; max-height:none!important"
+				/>
 			</div>
 		</div>
 	</section>
-	<section class="bg-neutral-400">
+	<!-- <section class="bg-neutral-400">
 		<div class="container centered">
-			<h1>{$t('contribute.title')}</h1>
+			<script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe
+				src="https://donorbox.org/embed/daukaia"
+				name="donorbox"
+				allowpaymentrequest="allowpaymentrequest"
+				seamless="seamless"
+				frameborder="0"
+				scrolling="no"
+				height="900px"
+				width="400px"
+				style="max-width: 500px; min-width: 250px; max-height:none!important"
+			/>
+		</div>
+	</section> -->
+	<section class=" bg-accent-500">
+		<div class="container centered quote">
+			<!-- <h1>{$t('contribute.title')}</h1> -->
 			<p>"{$t('contribute.quote')}"</p>
 			<span style="padding-top:1.5rem">-- {$t('contribute.quote-author')}</span>
 		</div>
 	</section>
-	<section class="methods">
+	<section class="methods bg-neutral-100">
 		<div class="container">
 			<div class="even-columns">
 				<div class="method ">
-					<h1>{$t('contribute.time.header')}</h1>
+					<h1>Contribute</h1>
 					<p />
 					<div style="text-align:left">
 						<ul><li>{$t('contribute.time.volunteering')}</li></ul>
@@ -84,7 +92,7 @@
 		/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
 		/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 			url('/images/IMG_8660.jpg'); */
-		background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.45)),
+		background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2)),
 			url('/images/IMG_7960.jpg');
 
 		/* Set a specific height */
@@ -112,14 +120,39 @@
 	}
 
 	.hero-text h1 {
-		font-size: 2.25rem;
-		line-height: 2.5rem;
+		font-size: 3.25rem;
+		line-height: 4rem;
 		text-transform: uppercase;
 		text-align: center;
 		/* text-shadow: 0 0 5px #666; */
 	}
+	.first {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.first h1 {
+		font-size: 1.25rem;
+		text-transform: uppercase;
+		font-weight: 500;
+		/* color: var(--clr-accent); */
+		margin: 0;
+		text-align: center;
+	}
+
+	.first p {
+		margin: 20px 0 80px;
+		text-align: center;
+		max-width: min(100%, 70ch);
+	}
+	.quote {
+		color: white;
+	}
 	.methods {
-		background-color: var(--clr-accent);
+		/* background-color: var(--clr-accent); */
 	}
 
 	.method {
