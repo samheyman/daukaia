@@ -17,83 +17,78 @@
 			</div> -->
 		</div>
 	</section>
-	<section class="white-bg about-us">
+	<section class="white-bg about-us large-padding">
 		<div class="full-blead centered">
-			<h1>Who we are</h1>
-			<p>
-				We are a small non-profit helping children in Ocotal, Nicaragua, to develop key skills,
-				strengths and values.
+			<h1 class="section-header">Who we are</h1>
+			<p class="section-paragraph">
+				We are a small non-profit organisation helping children in Ocotal, Nicaragua, to develop key
+				skills, strengths and values in a safe and loving space.
 			</p>
-			<a href="/about">Learn more about us</a>
+			<a href="/about">Read more about us</a>
 		</div>
 	</section>
-	<section class="bg-accent-500 pillars">
+	<section class="bg-accent-500 small-padding">
+		<div class="container centered quote">
+			<!-- <h1>{$t('contribute.title')}</h1> -->
+			<p>“Education is the most powerful weapon that you can use to change the world.”</p>
+			<span>-- Nelson Mandela</span>
+		</div>
+	</section>
+	<section class="bg-neutral-400 pillars large-padding">
 		<div class="full-blead centered">
-			<h1>Our four pillars</h1>
+			<h1 class="section-header">What we do</h1>
 			<div class="container">
 				<div class="even-columns">
 					<div class="item centered">
-						<img src="/images/icons/nutrition.png" />
-						<span>Nutrition</span>
+						<img src="/images/second-home.png" />
+						<h4>A second home</h4>
+						<p>
+							We provide a safe and loving environment in which the children can develop, make
+							friends, learn, have fun, be listened to and get support and help to thrive.
+						</p>
 					</div>
 					<div class="item centered">
-						<img src="/images/icons/hygene.png" />
-						<span>Hygene</span>
+						<img src="/images/brushing-teeth.png" />
+						<h4>Our 4 pillars</h4>
+						<p>
+							We help build healthy habits focused around four pillars: nutrition, health, education
+							and personal development.
+						</p>
 					</div>
 					<div class="item centered">
-						<img src="/images/icons/education.png" />
-						<span>Education</span>
+						<img src="/images/teaching.png" />
+						<h4>Change agents</h4>
+						<p>
+							Our goal is to offer these young people the opportunity of a fulfilling life, decent
+							work and the ability to face new challenges, while having a ripple effect in their
+							community.
+						</p>
 					</div>
-					<div class="item centered">
+					<!-- <div class="item centered">
 						<img src="/images/icons/personal_development.png" />
 						<span>Personal development</span>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<a href="/mission">Read more about our mission</a>
 		</div>
 	</section>
-	<section class="social bg-neutral-400">
+
+	<!-- <section class="social bg-neutral-400">
 		<div class="container centered">
 			<h1>Celebrating 10 years!</h1>
 			<p>{$t('contact.follow-us.description')}</p>
 			<a href="/about">Read more about our history</a>
 		</div>
-	</section>
-	<section class="social bg-neutral-500">
+	</section> -->
+	<!-- <section class="social bg-neutral-500">
 		<div class="container centered">
 			<h1>{$t('contact.follow-us.header')}</h1>
 			<p>{$t('contact.follow-us.description')}</p>
-			<div class="social-icons">
-				<div class="link">
-					<a href="https://www.facebook.com/Daukaia/" target="_blank"
-						><img class="social-icon" src="/images/icons/facebook.svg" /></a
-					>
-				</div>
-				<div class="link">
-					<a href="https://www.instagram.com/daukaia/" target="_blank"
-						><img class="social-icon" src="/images/icons/instagram.svg" /></a
-					>
-				</div>
-				<div class="link">
-					<a href="https://twitter.com/daukaia" target="_blank"
-						><img class="social-icon" src="/images/icons/twitter.svg" /></a
-					>
-				</div>
-				<div class="link">
-					<a href="https://www.linkedin.com/company/daukaia/" target="_blank"
-						><img class="social-icon" src="/images/icons/linkedin.svg" /></a
-					>
-				</div>
-				<div class="link">
-					<a href="https://www.youtube.com/user/daukaia" target="_blank"
-						><img class="social-icon" src="/images/icons/youtube.svg" /></a
-					>
-				</div>
-			</div>
+			
 		</div>
-	</section>
-	<section class="report bg-neutral-400">
+	</section> -->
+	<!--<section class="report bg-neutral-400">
 		<div class="container centered">
 			<h1>{$t('contact.download')}</h1>
 			<a target="_blank" href="https://www.canva.com/design/DAE6fPLPQjk/FRIlejpSXZDlVQiDQhxtwQ/view"
@@ -101,7 +96,7 @@
 			>
 			<p>({$t('contact.spanish')})</p>
 		</div>
-	</section>
+	</section> -->
 	<!-- <section class="un-sustainability">
 		<div class="full-blead centered">
 			<h1>{$t('homepage.un.header')}</h1>
@@ -144,11 +139,11 @@
 
 	.hero-text.container {
 		padding: 2rem;
-		width: min(100%, 794px);
+		width: min(100%, 894px);
 		/* background-color: hsl(0, 0%, 0%, 0.3); */
 	}
 
-	.hero-text h1 {
+	.homepage h1 {
 		font-size: 4.25rem;
 		line-height: 5rem;
 		text-transform: uppercase;
@@ -160,17 +155,21 @@
 		color: var(--clr-accent);
 	}
 
-	.about-us h1 {
-		font-size: 1.25rem;
+	.about-us {
+		/* margin: 4rem 0; */
+	}
+
+	h1.section-header {
+		font-size: 2.25rem;
 		text-transform: uppercase;
 		font-weight: 500;
 		color: var(--clr-accent);
 		margin: 0;
 	}
 
-	.about-us p {
-		font-size: 2rem;
-		margin: 1.5rem 0;
+	p.section-paragraph {
+		font-size: 1.75rem;
+		margin: 1.75rem 0;
 		width: min(800px, 100%);
 		line-height: normal;
 	}
@@ -178,9 +177,23 @@
 	.about-us a {
 		color: var(--clr-accent);
 	}
-
+	.quote {
+		padding: 0rem 0;
+	}
+	.quote p {
+		font-size: 1.5rem;
+		margin: 0;
+		width: min(800px, 100%);
+		line-height: normal;
+		font-style: italic;
+	}
+	.quote span {
+		padding-top: 1rem;
+		color: inherit;
+	}
 	.pillars {
 		/* color: #fff; */
+		/* padding: 6rem 0; */
 	}
 
 	.pillars a {
@@ -194,14 +207,21 @@
 		margin-bottom: 1.5rem;
 		padding: 0 2rem;
 	}
-
-	.pillars span {
+	.pillars h4 {
+		color: #333;
+		font-weight: 600;
+	}
+	.pillars p {
 		color: #333;
 		padding-top: 1rem;
+		text-transform: none;
+		font-weight: 400;
 	}
 
 	.pillars img {
-		height: 120px;
+		height: 180px;
+		border-radius: 50%;
+		margin: 2rem 0;
 	}
 
 	.un-sustainability {
@@ -240,9 +260,7 @@
 	.social {
 		padding: 6rem 0;
 	}
-	.social-icons {
-		display: flex;
-	}
+
 	.social h1 {
 		margin: 0;
 	}
@@ -250,10 +268,7 @@
 		margin: 2rem 0 3rem 0;
 		max-width: min(100vw, 60ch);
 	}
-	.social-icon {
-		height: 60px;
-		margin: 0 0.5rem;
-	}
+
 	.report {
 	}
 	.report h1 {

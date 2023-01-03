@@ -113,7 +113,7 @@
 					<a class:active={$page.url.pathname.includes('about')} href="/about"
 						>{$t('navbar.about')}</a
 					>
-					<a class:active={$page.url.pathname.includes('nicaragua')} href="/nicaragua">Nicaragua</a>
+					<!-- <a class:active={$page.url.pathname.includes('nicaragua')} href="/nicaragua">Nicaragua</a> -->
 
 					<a class:active={$page.url.pathname.includes('contact')} href="/contact"
 						>{$t('navbar.contact')}</a
@@ -207,7 +207,7 @@
 	select {
 		margin-left: 25px;
 		appearance: none;
-		background-color: hsl(0 0% 0% / 50%);
+		background-color: hsl(0 0% 0% / 0%);
 		/* border: 1px solid #fff; */
 		color: #fff;
 		font-size: 1rem;

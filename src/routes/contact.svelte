@@ -14,13 +14,20 @@
 			</div> -->
 		</div>
 	</section>
-	<section class="first bg-neutral-100">
+	<section class="first bg-neutral-100 centered large-padding">
 		<div class="container">
-			<h1>Contact us</h1>
-			<p>
-				We're here to talk to you if you have any questions, would like more information or would
-				like to join us!
-			</p>
+			<h1 class="section-header">Contact us</h1>
+
+			<div class="container">
+				<p class="main">
+					We're here to talk to you if you have any questions, would like more information<br /> or would
+					like to join us!
+				</p>
+				<div class="email-address">
+					<em>@</em><a href="mailto:hola@daukaia.org">hola@daukaia.org</a>
+				</div>
+			</div>
+
 			<!-- <div class="email-address centered">
 				<a href="mailto:hola@daukaia.org">hola@daukaia.org</a>
 			</div> -->
@@ -35,21 +42,28 @@
 			</div> -->
 		</div>
 	</section>
-	<section class="first bg-accent-500">
+	<section class="addresses bg-accent-700 small-padding">
 		<div class="container">
 			<div class="even-columns">
-				<div class="left centered">
-					<!-- <h1>{$t('contact.statement2')}</h1> -->
-					<div class="email-address centered">
-						<a href="mailto:hola@daukaia.org">hola@daukaia.org</a>
-					</div>
+				<div class="item centered border-right">
+					<h3>Daukaia Norge</h3>
+					<p>Address goes here</p>
+					<p>Tel goes here</p>
 				</div>
-				<div class="right" />
+				<div class="item centered">
+					<h3>Asociación Daukaia</h3>
+
+					<p>CIF: G86642980</p>
+					<p>
+						Inscrita en el Grupo 1 Sección 1<br /> Número nacional 601941<br /> en el Registro
+						Nacional de Asociaciones,<br /> el 19/02/2013
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="social bg-neutral-100">
+	<!-- <section class="social bg-neutral-100">
 		<div class="container centered">
 			<h1>{$t('contact.follow-us.header')}</h1>
 			<p>{$t('contact.follow-us.description')}</p>
@@ -81,8 +95,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="report bg-neutral-400">
+	</section> -->
+	<section class="report bg-neutral-400 small-padding">
 		<div class="container centered">
 			<h1>{$t('contact.download')}</h1>
 			<a target="_blank" href="https://www.canva.com/design/DAE6fPLPQjk/FRIlejpSXZDlVQiDQhxtwQ/view"
@@ -131,22 +145,28 @@
 		text-align: center;
 		/* text-shadow: 0 0 5px #666; */
 	}
-
-	.first h1 {
-		font-size: 1.25rem;
+	h1.section-header {
+		font-size: 2.25rem;
 		text-transform: uppercase;
 		font-weight: 500;
-		/* color: var(--clr-accent); */
+		color: var(--clr-accent);
 		margin: 0;
-		text-align: center;
 	}
 
-	.first p {
-		margin: 20px 0;
-		text-align: center;
+	p.section-paragraph {
+		font-size: 1.75rem;
+		margin: 1.75rem 0;
+		width: min(800px, 100%);
+		line-height: normal;
+	}
+	.border-right {
+		border-right: 2px solid #fff;
 	}
 	.left {
 		padding: 3rem;
+	}
+	p.main {
+		margin: 2rem 0;
 	}
 	.left h1 {
 		font-weight: 500;
@@ -165,13 +185,26 @@
 	.email-address {
 		background-color: white;
 		border-radius: 10px;
-		padding: 3rem 4rem;
+		padding: 0rem 4rem 3rem;
 	}
 	.email-address a {
 		color: inherit;
 		text-decoration: none;
 		font-size: 1.5rem;
 		font-weight: 500;
+	}
+	.email-address em {
+		color: var(--clr-accent-700);
+		font-weight: 700;
+		font-size: 2.25rem;
+		padding-right: 2rem;
+	}
+	.addresses {
+		color: #fff;
+	}
+	.addresses h3 {
+		margin: 1rem 0;
+		font-size: 2rem;
 	}
 	.contact {
 		/* background-color: var(--clr-accent); */

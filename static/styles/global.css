@@ -94,6 +94,9 @@
 .bg-accent-500 {
 	background-color: var(--clr-accent-500);
 }
+.bg-accent-700 {
+	background-color: var(--clr-accent-700);
+}
 .bg-neutral-100 {
 	background-color: var(--clr-neutral-100);
 }
@@ -176,6 +179,10 @@ h3 {
 	font-weight: 700;
 }
 
+a {
+	text-underline-offset: 0.2em;
+}
+
 b {
 	font-weight: 700;
 }
@@ -206,10 +213,16 @@ b {
 	color: var(--clr-accent) !important;
 }
 
-section {
+section.large-padding {
 	/* border-top: 1px solid #666; */
 	/* border-bottom: 1px solid #666; */
-	padding: 3.75rem 0;
+	padding: 6rem 0;
+	margin: 0 auto;
+}
+section.small-padding {
+	/* border-top: 1px solid #666; */
+	/* border-bottom: 1px solid #666; */
+	padding: 4rem 0;
 	margin: 0 auto;
 }
 
