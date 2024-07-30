@@ -96,13 +96,13 @@
 			</div>
 		</div>
 	</section> -->
-	<section class="report bg-neutral-400 small-padding">
+	<section class="report bg-accent-400 small-padding">
 		<div class="container centered">
-			<h1>{$t('contact.download')}</h1>
-			<a target="_blank" href="https://www.canva.com/design/DAE6fPLPQjk/FRIlejpSXZDlVQiDQhxtwQ/view"
-				><img src="/images/report_2022.png" /></a
+			<h1>We have been selected as partner project with</h1>
+			<a target="_blank" href="https://www.casapueblito.org/"
+				><img src="/images/casa_pueblito.png" /></a
 			>
-			<p>({$t('contact.spanish')})</p>
+			<!-- <p>({$t('contact.spanish')})</p> -->
 		</div>
 	</section>
 </main>

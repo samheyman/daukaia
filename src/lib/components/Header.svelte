@@ -63,35 +63,28 @@
 						href="/">Home</a
 					>
 				</li> -->
-					<li>
-						<a class="link" class:active={$page.url.pathname.includes('mission')} href="/mission"
-							>{$t('navbar.mission')}</a
-						>
-					</li>
 
 					<li>
 						<a class="link" class:active={$page.url.pathname.includes('about')} href="/about"
 							>{$t('navbar.about')}</a
 						>
 					</li>
-
+					<li>
+						<a class="link" class:active={$page.url.pathname.includes('mission')} href="/mission"
+							>{$t('navbar.whatWeDo')}</a
+						>
+					</li>
 					<li>
 						<a class="link" class:active={$page.url.pathname.includes('contact')} href="/contact"
-							>{$t('navbar.contact')}</a
+							>{$t('navbar.igniteChange')}</a
 						>
 					</li>
-					<li>
-						<a
-							class="link"
-							class:active={$page.url.pathname.includes('nicaragua')}
-							href="/nicaragua">Nicaragua</a
-						>
-					</li>
+
 					<li>
 						<a
 							class="inverted"
 							class:active={$page.url.pathname.includes('contribute')}
-							href="/contribute">{$t('navbar.contribute')}</a
+							href="/contribute">{$t('navbar.donate')}</a
 						>
 					</li>
 				</ul>
@@ -106,24 +99,23 @@
 						!$page.url.pathname.includes('contact')}
 					href="/">Home</a
 				> -->
-					<a class:active={$page.url.pathname.includes('mission')} href="/mission"
-						>{$t('navbar.mission')}</a
-					>
 
 					<a class:active={$page.url.pathname.includes('about')} href="/about"
 						>{$t('navbar.about')}</a
+					><a class:active={$page.url.pathname.includes('mission')} href="/mission"
+						>{$t('navbar.whatWeDo')}</a
 					>
 					<!-- <a class:active={$page.url.pathname.includes('nicaragua')} href="/nicaragua">Nicaragua</a> -->
 
 					<a class:active={$page.url.pathname.includes('contact')} href="/contact"
-						>{$t('navbar.contact')}</a
+						>{$t('navbar.igniteChange')}</a
 					>
 				</div>
 				<div class="call-to-action">
 					<a
 						class="inverted"
 						class:active={$page.url.pathname.includes('contribute')}
-						href="/contribute">{$t('navbar.contribute')}</a
+						href="/contribute">{$t('navbar.donate')}</a
 					>
 				</div>
 				<select bind:value={$locale}>
